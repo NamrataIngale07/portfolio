@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal Developer Portfolio of Namrata Ingale — B.Tech Information Technology Student at RCPIT, Shirpur. Aspiring software developer passionate about Web Development, DSA, and problem solving.">
+  <meta name="author" content="Namrata Ingale">
+  <meta name="keywords" content="Namrata Ingale, Developer Portfolio, Information Technology, RCPIT Shirpur, Software Developer, Java, DSA, Web Development, Firebase">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Namrata Ingale | Developer Portfolio">
+  <meta property="og:description" content="Portfolio of Namrata Ingale — B.Tech IT Student at RCPIT Shirpur, showcasing technical skills, academic projects, and certifications.">
+  <meta property="og:url" content="https://namrataingale07.github.io/">
+
+  <title>Namrata Ingale | Developer Portfolio</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Accessibility Skip Link -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Header / Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-brand" aria-label="Namrata Ingale Home">
+        <span class="brand-monogram">NI</span>
+        <span class="brand-name">Namrata Ingale</span>
+      </a>
+
+      <!-- Mobile Hamburger Toggle -->
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+
+      <!-- Navigation Links -->
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#hero" class="nav-link active">Home</a></li>
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-actions">
+          <a href="assets/Namrata_Ingale_Resume.pdf" target="_blank" download="Namrata_Ingale_Resume.pdf" class="btn btn-sm btn-outline">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16" aria-hidden="true">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+              <polyline points="7 10 12 15 17 10"></polyline>
+              <line x1="12" y1="15" x2="12" y2="3"></line>
+            </svg>
+            <span>Resume</span>
+          </a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="status-indicator"></span>
+            <span>B.Tech Information Technology &bull; RCPIT Shirpur</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="text-highlight">Namrata Ingale</span>
+          </h1>
+
+          <div class="hero-role-wrapper">
+            <span class="role-static">B.Tech IT Student | </span>
+            <span class="typing-text" id="typing-text">Aspiring Software Developer</span>
+            <span class="cursor" aria-hidden="true">|</span>
+          </div>
+
+          <p class="hero-description">
+            I am a B.Tech Information Technology student at RCPIT, Shirpur with a keen interest in software development, web technologies, Data Structures and Algorithms, and practical problem-solving.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">
+              <span>View My Projects</span>
+              <svg class="btn-icon" viewBox="0 0 20 20" fill="currentColor" width="18" height="18" aria-hidden="true">
+                <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+              </svg>
+            </a>
+
+            <a href="assets/Namrata_Ingale_Resume.pdf" target="_blank" download="Namrata_Ingale_Resume.pdf" class="btn btn-secondary">
+              <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18" aria-hidden="true">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                <polyline points="7 10 12 15 17 10"></polyline>
+                <line x1="12" y1="15" x2="12" y2="3"></line>
+              </svg>
+              <span>Download Resume</span>
+            </a>
+
+            <!-- Social Profile Icon Buttons -->
+            <div class="hero-social-icons" aria-label="Social Profiles">
+              <a href="https://github.com/NamrataIngale07" target="_blank" rel="noopener noreferrer" class="btn btn-icon-only btn-github" aria-label="Visit GitHub Profile" title="GitHub Profile">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20" aria-hidden="true">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+                </svg>
+              </a>
+
+              <a href="https://www.linkedin.com/in/namrata-ingale-8ba31838a" target="_blank" rel="noopener noreferrer" class="btn btn-icon-only btn-linkedin" aria-label="Visit LinkedIn Profile" title="LinkedIn Profile">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20" aria-hidden="true">
+                  <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 8.76c.97 0 1.76-.79 1.76-1.76s-.79-1.76-1.76-1.76c-.97 0-1.76.79-1.76 1.76s.79 1.76 1.76 1.76m1.39 9.74v-8.37H5.07v8.37h2.78z"/>
+                </svg>
+              </a>
+
+              <a href="https://www.codechef.com/users/rcpit251109015" target="_blank" rel="noopener noreferrer" class="btn btn-icon-only btn-codechef" aria-label="Visit CodeChef Profile" title="CodeChef Profile">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20" aria-hidden="true">
+                  <path d="M18.5 9.5c0-.44-.06-.86-.18-1.26A4.5 4.5 0 0 0 12 4a4.5 4.5 0 0 0-6.32 4.24c-.12.4-.18.82-.18 1.26 0 2.21 1.61 4.04 3.73 4.41.48 1.48 1.87 2.59 3.52 2.59h1.5a3.75 3.75 0 0 0 3.52-2.59c2.12-.37 3.73-2.2 3.73-4.41zM8 18h8v1.5H8V18zm1 2.5h6V22H9v-1.5z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Real Photograph Container -->
+        <div class="hero-visual">
+          <div class="hero-photo-wrapper">
+            <div class="photo-glow-backdrop"></div>
+            <div class="photo-card">
+              <img src="assets/namrata-ingale.jpg" alt="Photograph of Namrata Ingale" class="hero-photo" width="400" height="520">
+              <div class="photo-caption-tag">
+                <span class="caption-dot"></span>
+                <span>Namrata Ingale &bull; IT Student</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Get To Know Me</span>
+          <h2 class="section-title">About Me</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="about-grid">
+          <!-- Text Introduction -->
+          <div class="about-narrative">
+            <p class="about-lead">
+              I am a B.Tech Information Technology student interested in software development, web development, and Data Structures and Algorithms. I enjoy building practical web-based solutions and improving my problem-solving skills through regular coding practice. I am continuously learning and looking for opportunities to apply my technical knowledge to real-world projects.
+            </p>
+
+            <div class="about-highlights">
+              <div class="highlight-item">
+                <div class="highlight-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="20" height="20">
+                    <polyline points="16 18 22 12 16 6"></polyline>
+                    <polyline points="8 6 2 12 8 18"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="highlight-title">Practical Web Solutions</h4>
+                  <p class="highlight-desc">Developing structured, responsive web applications using HTML5, CSS3, JavaScript, and Firebase Cloud Firestore.</p>
+                </div>
+              </div>
+
+              <div class="highlight-item">
+                <div class="highlight-icon">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="20" height="20">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon>
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="highlight-title">Algorithmic Problem Solving</h4>
+                  <p class="highlight-desc">Consistent practice in Data Structures and Algorithms on CodeChef with 500+ problems solved.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="about-actions">
+              <a href="assets/Namrata_Ingale_Resume.pdf" target="_blank" download="Namrata_Ingale_Resume.pdf" class="btn btn-primary btn-sm">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16" aria-hidden="true">
+                  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                  <polyline points="7 10 12 15 17 10"></polyline>
+                  <line x1="12" y1="15" x2="12" y2="3"></line>
+                </svg>
+                <span>Download Resume (PDF)</span>
+              </a>
+              <a href="#contact" class="btn btn-outline btn-sm">Connect With Me</a>
+            </div>
+          </div>
+
+          <!-- Confirmed Information Panel -->
+          <div class="about-panel-wrapper">
+            <div class="info-panel">
+              <h3 class="panel-heading">Profile Overview</h3>
+              <ul class="panel-list">
+                <li class="panel-item">
+                  <span class="panel-label">Name</span>
+                  <span class="panel-value">Namrata Ingale</span>
+                </li>
+                <li class="panel-item">
+                  <span class="panel-label">Degree</span>
+                  <span class="panel-value">B.Tech in Information Technology</span>
+                </li>
+                <li class="panel-item">
+                  <span class="panel-label">College</span>
+                  <span class="panel-value">R. C. Patel Institute of Technology (RCPIT), Shirpur</span>
+                </li>
+                <li class="panel-item">
+                  <span class="panel-label">Location</span>
+                  <span class="panel-value">Salshingi, Maharashtra, India</span>
+                </li>
+                <li class="panel-item">
+                  <span class="panel-label">Email</span>
+                  <a href="mailto:ingalenamrata101@gmail.com" class="panel-value panel-link">ingalenamrata101@gmail.com</a>
+                </li>
+                <li class="panel-item">
+                  <span class="panel-label">LinkedIn</span>
+                  <a href="https://www.linkedin.com/in/namrata-ingale-8ba31838a" target="_blank" rel="noopener noreferrer" class="panel-value panel-link">linkedin.com/in/namrata-ingale-8ba31838a</a>
+                </li>
+                <li class="panel-item">
+                  <span class="panel-label">GitHub</span>
+                  <a href="https://github.com/NamrataIngale07" target="_blank" rel="noopener noreferrer" class="panel-value panel-link">github.com/NamrataIngale07</a>
+                </li>
+                <li class="panel-item">
+                  <span class="panel-label">CodeChef</span>
+                  <a href="https://www.codechef.com/users/rcpit251109015" target="_blank" rel="noopener noreferrer" class="panel-value panel-link">codechef.com/users/rcpit251109015</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Academic Background</span>
+          <h2 class="section-title">Education</h2>
+          <div class="section-divider"></div>
+          <p class="section-intro">
+            A clear and verified record of my academic qualifications from high school to undergraduate engineering studies.
+          </p>
+        </div>
+
+        <div class="education-grid">
+          <!-- Item 1: B.Tech -->
+          <div class="education-card active-card">
+            <div class="education-card-badge">Current Degree</div>
+            <div class="education-header">
+              <div class="education-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" aria-hidden="true">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                  <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                </svg>
+              </div>
+              <div>
+                <span class="education-dates">2025 &mdash; Present</span>
+                <h3 class="education-degree">B.Tech in Information Technology</h3>
+                <p class="education-institute">R. C. Patel Institute of Technology, Shirpur</p>
+              </div>
+            </div>
+            <div class="education-score-row">
+              <span class="score-label">Current Performance:</span>
+              <span class="score-pill">CGPA: 7.8</span>
+            </div>
+          </div>
+
+          <!-- Item 2: HSC -->
+          <div class="education-card">
+            <div class="education-card-badge">Higher Secondary</div>
+            <div class="education-header">
+              <div class="education-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" aria-hidden="true">
+                  <rect x="3" y="4" width="18" height="16" rx="2"></rect>
+                  <line x1="3" y1="10" x2="21" y2="10"></line>
+                </svg>
+              </div>
+              <div>
+                <span class="education-dates">Higher Secondary Certificate (HSC)</span>
+                <h3 class="education-degree">Science Stream</h3>
+                <p class="education-institute">N. H. Ranka High School, Bodwad</p>
+              </div>
+            </div>
+            <div class="education-score-row">
+              <span class="score-label">Board Examination:</span>
+              <span class="score-pill">Percentage: 81%</span>
+            </div>
+          </div>
+
+          <!-- Item 3: SSC -->
+          <div class="education-card">
+            <div class="education-card-badge">Secondary School</div>
+            <div class="education-header">
+              <div class="education-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" aria-hidden="true">
+                  <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                  <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                </svg>
+              </div>
+              <div>
+                <span class="education-dates">Secondary School Certificate (SSC)</span>
+                <h3 class="education-degree">General Education</h3>
+                <p class="education-institute">N. H. Ranka High School, Bodwad</p>
+              </div>
+            </div>
+            <div class="education-score-row">
+              <span class="score-label">Board Examination:</span>
+              <span class="score-pill">Percentage: 55.50%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Skills & Problem Solving Section -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Technical Foundation</span>
+          <h2 class="section-title">Technical Skills &amp; Problem Solving</h2>
+          <div class="section-divider"></div>
+          <p class="section-intro">
+            Organized categories of programming languages, web technologies, and computational problem solving.
+          </p>
+        </div>
+
+        <!-- Problem Solving Highlight Banner -->
+        <div class="problem-solving-banner">
+          <div class="banner-content">
+            <div class="banner-badge">Resume-Stated Milestone</div>
+            <h3 class="banner-title">500+ Problems Solved &mdash; CodeChef</h3>
+            <p class="banner-desc">
+              Consistent practice in programming problems to strengthen logical thinking, algorithmic reasoning, and implementation skills through regular coding practice.
+            </p>
+          </div>
+          <div class="banner-action">
+            <a href="https://www.codechef.com/users/rcpit251109015" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16" aria-hidden="true">
+                <path d="M18.5 9.5c0-.44-.06-.86-.18-1.26A4.5 4.5 0 0 0 12 4a4.5 4.5 0 0 0-6.32 4.24c-.12.4-.18.82-.18 1.26 0 2.21 1.61 4.04 3.73 4.41.48 1.48 1.87 2.59 3.52 2.59h1.5a3.75 3.75 0 0 0 3.52-2.59c2.12-.37 3.73-2.2 3.73-4.41zM8 18h8v1.5H8V18zm1 2.5h6V22H9v-1.5z"/>
+              </svg>
+              <span>View CodeChef Profile</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="skills-grid">
+          <!-- Category 1: Programming Languages -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="category-icon prog-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" aria-hidden="true">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <div>
+                <h3 class="skill-category-title">Programming Languages</h3>
+                <span class="skill-category-subtitle">Core Syntax &amp; Implementation</span>
+              </div>
+            </div>
+            <ul class="skill-list">
+              <li class="skill-item">
+                <span class="skill-bullet"></span>
+                <div class="skill-meta">
+                  <span class="skill-name">Java</span>
+                  <span class="skill-desc">Object-oriented programming, class hierarchies, interfaces</span>
+                </div>
+              </li>
+              <li class="skill-item">
+                <span class="skill-bullet"></span>
+                <div class="skill-meta">
+                  <span class="skill-name">C</span>
+                  <span class="skill-desc">Pointers, memory concepts, structured programming</span>
+                </div>
+              </li>
+              <li class="skill-item">
+                <span class="skill-bullet"></span>
+                <div class="skill-meta">
+                  <span class="skill-name">C++</span>
+                  <span class="skill-desc">OOP concepts, STL fundamentals, problem-solving syntax</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Category 2: Web Development -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="category-icon web-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" aria-hidden="true">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                  <line x1="8" y1="21" x2="16" y2="21"></line>
+                  <line x1="12" y1="17" x2="12" y2="21"></line>
+                </svg>
+              </div>
+              <div>
+                <h3 class="skill-category-title">Web Development</h3>
+                <span class="skill-category-subtitle">Client-Side Engineering</span>
+              </div>
+            </div>
+            <ul class="skill-list">
+              <li class="skill-item">
+                <span class="skill-bullet"></span>
+                <div class="skill-meta">
+                  <span class="skill-name">HTML5</span>
+                  <span class="skill-desc">Semantic page architecture, forms, document layout</span>
+                </div>
+              </li>
+              <li class="skill-item">
+                <span class="skill-bullet"></span>
+                <div class="skill-meta">
+                  <span class="skill-name">CSS3</span>
+                  <span class="skill-desc">Flexbox, CSS Grid, media queries, modern responsive styling</span>
+                </div>
+              </li>
+              <li class="skill-item">
+                <span class="skill-bullet"></span>
+                <div class="skill-meta">
+                  <span class="skill-name">JavaScript</span>
+                  <span class="skill-desc">DOM manipulation, event architecture, dynamic frontends</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Category 3: Core Areas -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="category-icon core-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" aria-hidden="true">
+                  <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="skill-category-title">Core Areas</h3>
+                <span class="skill-category-subtitle">Theoretical &amp; Applied Concepts</span>
+              </div>
+            </div>
+            <ul class="skill-list">
+              <li class="skill-item">
+                <span class="skill-bullet"></span>
+                <div class="skill-meta">
+                  <span class="skill-name">Data Structures &amp; Algorithms</span>
+                  <span class="skill-desc">Arrays, lists, searching, sorting, algorithmic analysis</span>
+                </div>
+              </li>
+              <li class="skill-item">
+                <span class="skill-bullet"></span>
+                <div class="skill-meta">
+                  <span class="skill-name">Problem Solving</span>
+                  <span class="skill-desc">Logical reasoning and continuous coding practice</span>
+                </div>
+              </li>
+              <li class="skill-item">
+                <span class="skill-bullet"></span>
+                <div class="skill-meta">
+                  <span class="skill-name">Object-Oriented Programming</span>
+                  <span class="skill-desc">Encapsulation, inheritance, polymorphism, modularity</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Category 4: Project Technologies -->
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="category-icon project-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" aria-hidden="true">
+                  <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"></path>
+                </svg>
+              </div>
+              <div>
+                <h3 class="skill-category-title">Project Technologies</h3>
+                <span class="skill-category-subtitle">Digital Visitor Management System Stack</span>
+              </div>
+            </div>
+            <ul class="skill-list">
+              <li class="skill-item">
+                <span class="skill-bullet"></span>
+                <div class="skill-meta">
+                  <span class="skill-name">HTML5, CSS3, JavaScript</span>
+                  <span class="skill-desc">Frontend interfaces, validation, dynamic QR rendering</span>
+                </div>
+              </li>
+              <li class="skill-item">
+                <span class="skill-bullet"></span>
+                <div class="skill-meta">
+                  <span class="skill-name">Firebase</span>
+                  <span class="skill-desc">Serverless backend platform, web app initialization</span>
+                </div>
+              </li>
+              <li class="skill-item">
+                <span class="skill-bullet"></span>
+                <div class="skill-meta">
+                  <span class="skill-name">Cloud Firestore</span>
+                  <span class="skill-desc">NoSQL real-time document database &amp; visitor data storage</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Project Section -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Featured Project</span>
+          <h2 class="section-title">Digital Visitor Management System for College</h2>
+          <div class="section-divider"></div>
+          <p class="section-intro">
+            An academic semester project developed as part of a team of four members at R. C. Patel Institute of Technology, Department of Information Technology.
+          </p>
+        </div>
+
+        <div class="featured-project-container">
+          <!-- Main Project Card -->
+          <article class="featured-project-card">
+            <!-- Project Showcase Grid: Left Info, Right Screenshot -->
+            <div class="project-showcase-grid">
+              <div class="project-info-col">
+                <div class="project-badge-row">
+                  <span class="badge badge-primary">Team Semester Project (4 Members)</span>
+                  <span class="badge badge-success">Verified Repository</span>
+                </div>
+
+                <h3 class="project-display-title">Digital Visitor Management System for College</h3>
+
+                <p class="project-description">
+                  A web-based system designed to digitize college visitor management and reduce dependence on paper-based visitor registers. It helps organize visitor information and supports the recording and monitoring of campus visits.
+                </p>
+
+                <div class="project-tech-stack-row">
+                  <span class="tech-tag"><strong>Frontend:</strong> HTML5, CSS3, JavaScript</span>
+                  <span class="tech-tag"><strong>Backend:</strong> Firebase</span>
+                  <span class="tech-tag"><strong>Database:</strong> Cloud Firestore</span>
+                </div>
+
+                <div class="project-features-block">
+                  <h4 class="features-heading">Implemented &amp; Project Features:</h4>
+                  <ul class="feature-checklist">
+                    <li>
+                      <svg viewBox="0 0 20 20" fill="currentColor" width="16" height="16" class="check-icon" aria-hidden="true"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                      <span>Digital visitor registration with contact, purpose, and department details.</span>
+                    </li>
+                    <li>
+                      <svg viewBox="0 0 20 20" fill="currentColor" width="16" height="16" class="check-icon" aria-hidden="true"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                      <span>Digital visitor pass generation with unique visitor ID and dynamic QR code pass.</span>
+                    </li>
+                    <li>
+                      <svg viewBox="0 0 20 20" fill="currentColor" width="16" height="16" class="check-icon" aria-hidden="true"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                      <span>Recording visitor entry and exit times at security checkpoints.</span>
+                    </li>
+                    <li>
+                      <svg viewBox="0 0 20 20" fill="currentColor" width="16" height="16" class="check-icon" aria-hidden="true"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                      <span>Maintaining visitor records, audit history archives, and campus access monitoring.</span>
+                    </li>
+                    <li>
+                      <svg viewBox="0 0 20 20" fill="currentColor" width="16" height="16" class="check-icon" aria-hidden="true"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+                      <span>Campus alerts &amp; notifications for host faculty members and administrative departments.</span>
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="project-actions-row">
+                  <button type="button" class="btn btn-primary btn-sm lightbox-trigger" data-target="project-lightbox">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16" aria-hidden="true">
+                      <circle cx="11" cy="11" r="8"></circle>
+                      <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                      <line x1="11" y1="8" x2="11" y2="14"></line>
+                      <line x1="8" y1="11" x2="14" y2="11"></line>
+                    </svg>
+                    <span>View Project Pass</span>
+                  </button>
+
+                  <a href="https://github.com/NamrataIngale07/Digital-visitor-management-system" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                    <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16" aria-hidden="true">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+                    </svg>
+                    <span>View on GitHub</span>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Project Screenshot Column -->
+              <div class="project-screenshot-col">
+                <div class="screenshot-frame lightbox-trigger" data-target="project-lightbox" title="Click to view full screenshot">
+                  <div class="screenshot-header">
+                    <span class="browser-dot red"></span>
+                    <span class="browser-dot yellow"></span>
+                    <span class="browser-dot green"></span>
+                    <span class="browser-url">visitor-pass.html &bull; Official Digital Pass</span>
+                  </div>
+                  <div class="screenshot-image-container">
+                    <img src="assets/visitor-pass-qr.png" alt="Digital Visitor Management System pass interface showing QR code, visitor number VIS-2026-010, and campus check-in details" class="project-screenshot" loading="lazy">
+                    <div class="screenshot-overlay">
+                      <span class="zoom-badge">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                          <circle cx="11" cy="11" r="8"></circle>
+                          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                        </svg>
+                        Click to enlarge
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <p class="screenshot-caption">
+                  Actual Digital Visitor Pass interface showing unique visitor ID, campus details, and dynamic QR verification token.
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications Section (Exactly Four Verified Certificates) -->
+    <section class="section cert-section" id="certifications">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Verified Credentials</span>
+          <h2 class="section-title">Certifications</h2>
+          <div class="section-divider"></div>
+          <p class="section-intro">
+            A verified showcase of genuine academic honors, technical bootcamps, cybersecurity training, and programming credentials.
+          </p>
+        </div>
+
+        <div class="cert-grid">
+          <!-- Certificate 1: IIC Competition 2025 -->
+          <article class="cert-card">
+            <div class="cert-preview-wrapper lightbox-trigger" data-target="cert-1-lightbox" title="Click to view certificate">
+              <img src="assets/certificate-iic-2025.png" alt="IIC Competition 2025 Second Rank Certificate of Participation" class="cert-thumbnail" loading="lazy">
+              <div class="cert-overlay">
+                <span class="zoom-badge">Click to enlarge</span>
+              </div>
+            </div>
+            <div class="cert-content">
+              <div class="cert-tag-row">
+                <span class="badge badge-primary">Second Rank</span>
+                <span class="badge badge-neutral">Innovation Competition</span>
+              </div>
+              <h3 class="cert-title">IIC Competition 2025 &mdash; Second Rank</h3>
+              <p class="cert-issuer">R. C. Patel Institute of Technology, Shirpur</p>
+              <div class="cert-meta-row">
+                <span class="cert-date">Date: 20 November 2025</span>
+              </div>
+              <p class="cert-desc">
+                Organized under the Ministry of Education's Innovation Cell and Institution's Innovation Council (IIC). Recognized for outstanding innovation and technical creativity.
+              </p>
+              <div class="cert-footer">
+                <button type="button" class="btn btn-outline btn-sm lightbox-trigger" data-target="cert-1-lightbox">
+                  View Certificate
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Certificate 2: Cybersecurity -->
+          <article class="cert-card">
+            <div class="cert-preview-wrapper lightbox-trigger" data-target="cert-2-lightbox" title="Click to view certificate">
+              <img src="assets/certificate-cybersecurity.png" alt="Cybersecurity Certificate of Participation from Tech Mahindra Foundation" class="cert-thumbnail" loading="lazy">
+              <div class="cert-overlay">
+                <span class="zoom-badge">Click to enlarge</span>
+              </div>
+            </div>
+            <div class="cert-content">
+              <div class="cert-tag-row">
+                <span class="badge badge-success">Completed</span>
+                <span class="badge badge-neutral">10 Hours</span>
+              </div>
+              <h3 class="cert-title">Cybersecurity</h3>
+              <p class="cert-issuer">Tech Mahindra Foundation &bull; Skill India Digital Hub</p>
+              <div class="cert-meta-row">
+                <span class="cert-date">Completion: 10 January 2026</span>
+              </div>
+              <p class="cert-desc">
+                Online skilling course on fundamental principles of cybersecurity, digital security protocols, and threat awareness.
+              </p>
+              <div class="cert-footer">
+                <button type="button" class="btn btn-outline btn-sm lightbox-trigger" data-target="cert-2-lightbox">
+                  View Certificate
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Certificate 3: International Bootcamp on DSA for DeepTech -->
+          <article class="cert-card">
+            <div class="cert-preview-wrapper doc-preview-wrapper">
+              <div class="pdf-document-card">
+                <div class="pdf-icon-badge">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="32" height="32" aria-hidden="true">
+                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                    <polyline points="14 2 14 8 20 8"></polyline>
+                    <line x1="16" y1="13" x2="8" y2="13"></line>
+                    <line x1="16" y1="17" x2="8" y2="17"></line>
+                    <polyline points="10 9 9 9 8 9"></polyline>
+                  </svg>
+                </div>
+                <span class="pdf-filename">DSA-BOV-RC-147</span>
+                <span class="pdf-pill">Official AICTE / Brainovision PDF</span>
+              </div>
+            </div>
+            <div class="cert-content">
+              <div class="cert-tag-row">
+                <span class="badge badge-primary">1-Month Virtual Program</span>
+                <span class="badge badge-neutral">AICTE &bull; Brainovision</span>
+              </div>
+              <h3 class="cert-title">International-Level Bootcamp on DSA for DeepTech</h3>
+              <p class="cert-issuer">Brainovision Solutions India &amp; AICTE (Hosted by RCPIT)</p>
+              <div class="cert-meta-row">
+                <span class="cert-date">Duration: 1 May 2026 &mdash; 30 May 2026</span>
+              </div>
+              <p class="cert-desc">
+                Intensive virtual training focused on Data Structures and Algorithms for DeepTech applications, academic rigor, and implementation.
+              </p>
+              <div class="cert-footer">
+                <a href="assets/certificate-dsa-deeptech.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                  View Certificate (PDF) &rarr;
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Certificate 4: OOPS through Java (CodeChef) -->
+          <article class="cert-card">
+            <div class="cert-preview-wrapper doc-preview-wrapper">
+              <div class="pdf-document-card">
+                <div class="pdf-icon-badge codechef-bg">
+                  <svg viewBox="0 0 24 24" fill="currentColor" width="32" height="32" aria-hidden="true">
+                    <path d="M18.5 9.5c0-.44-.06-.86-.18-1.26A4.5 4.5 0 0 0 12 4a4.5 4.5 0 0 0-6.32 4.24c-.12.4-.18.82-.18 1.26 0 2.21 1.61 4.04 3.73 4.41.48 1.48 1.87 2.59 3.52 2.59h1.5a3.75 3.75 0 0 0 3.52-2.59c2.12-.37 3.73-2.2 3.73-4.41zM8 18h8v1.5H8V18zm1 2.5h6V22H9v-1.5z"/>
+                  </svg>
+                </div>
+                <span class="pdf-filename">CodeChef Certification</span>
+                <span class="pdf-pill">Official CodeChef PDF</span>
+              </div>
+            </div>
+            <div class="cert-content">
+              <div class="cert-tag-row">
+                <span class="badge badge-success">Completed</span>
+                <span class="badge badge-neutral">CodeChef Platform</span>
+              </div>
+              <h3 class="cert-title">OOPS through Java</h3>
+              <p class="cert-issuer">CodeChef</p>
+              <div class="cert-meta-row">
+                <span class="cert-date">Completion: 7 May 2026</span>
+              </div>
+              <p class="cert-desc">
+                Confirms mastery and completion of the curriculum and programming projects in Object-Oriented Programming principles using Java.
+              </p>
+              <div class="cert-footer">
+                <a href="assets/certificate-oops-java.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                  View Certificate (PDF) &rarr;
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-subtitle">Reach Out</span>
+          <h2 class="section-title">Let's Connect</h2>
+          <div class="section-divider"></div>
+          <p class="section-intro">
+            I am actively seeking internship opportunities, entry-level software development roles, and collaborative projects. Feel free to reach out directly.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Card 1: Email -->
+          <div class="contact-card">
+            <div class="contact-card-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="24" height="24" aria-hidden="true">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                <polyline points="22,6 12,13 2,6"/>
+              </svg>
+            </div>
+            <h3 class="contact-card-title">Email</h3>
+            <p class="contact-card-desc">Send me an email directly for opportunities or inquiries.</p>
+            <a href="mailto:ingalenamrata101@gmail.com" class="contact-link">ingalenamrata101@gmail.com</a>
+            <div class="contact-card-action">
+              <a href="mailto:ingalenamrata101@gmail.com" class="btn btn-primary btn-sm">
+                <span>Send Email</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 2: LinkedIn -->
+          <div class="contact-card">
+            <div class="contact-card-icon linkedin-accent">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24" aria-hidden="true">
+                <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 8.76c.97 0 1.76-.79 1.76-1.76s-.79-1.76-1.76-1.76c-.97 0-1.76.79-1.76 1.76s.79 1.76 1.76 1.76m1.39 9.74v-8.37H5.07v8.37h2.78z"/>
+              </svg>
+            </div>
+            <h3 class="contact-card-title">LinkedIn</h3>
+            <p class="contact-card-desc">Connect professionally and follow my student journey.</p>
+            <a href="https://www.linkedin.com/in/namrata-ingale-8ba31838a" target="_blank" rel="noopener noreferrer" class="contact-link">linkedin.com/in/namrata-ingale-8ba31838a</a>
+            <div class="contact-card-action">
+              <a href="https://www.linkedin.com/in/namrata-ingale-8ba31838a" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                <span>Connect on LinkedIn</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 3: GitHub -->
+          <div class="contact-card">
+            <div class="contact-card-icon github-accent">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24" aria-hidden="true">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+              </svg>
+            </div>
+            <h3 class="contact-card-title">GitHub</h3>
+            <p class="contact-card-desc">Check out my project source code and recent commits.</p>
+            <a href="https://github.com/NamrataIngale07" target="_blank" rel="noopener noreferrer" class="contact-link">github.com/NamrataIngale07</a>
+            <div class="contact-card-action">
+              <a href="https://github.com/NamrataIngale07" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                <span>GitHub Profile</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Card 4: CodeChef -->
+          <div class="contact-card">
+            <div class="contact-card-icon codechef-accent">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24" aria-hidden="true">
+                <path d="M18.5 9.5c0-.44-.06-.86-.18-1.26A4.5 4.5 0 0 0 12 4a4.5 4.5 0 0 0-6.32 4.24c-.12.4-.18.82-.18 1.26 0 2.21 1.61 4.04 3.73 4.41.48 1.48 1.87 2.59 3.52 2.59h1.5a3.75 3.75 0 0 0 3.52-2.59c2.12-.37 3.73-2.2 3.73-4.41zM8 18h8v1.5H8V18zm1 2.5h6V22H9v-1.5z"/>
+              </svg>
+            </div>
+            <h3 class="contact-card-title">CodeChef</h3>
+            <p class="contact-card-desc">View problem-solving milestones and practice progress.</p>
+            <a href="https://www.codechef.com/users/rcpit251109015" target="_blank" rel="noopener noreferrer" class="contact-link">codechef.com/users/rcpit251109015</a>
+            <div class="contact-card-action">
+              <a href="https://www.codechef.com/users/rcpit251109015" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                <span>CodeChef Profile</span>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Location Badge Strip -->
+        <div class="contact-location-strip">
+          <div class="location-badge-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18" aria-hidden="true">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <span>Salshingi, Maharashtra, India</span>
+          </div>
+          <div class="location-status-item">
+            <span class="status-indicator"></span>
+            <span>Open to Internship &amp; Entry-Level Opportunities</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <span class="footer-title">Namrata Ingale</span>
+          <p class="footer-tagline">B.Tech Information Technology &bull; RCPIT Shirpur</p>
+        </div>
+
+        <div class="footer-links">
+          <a href="https://www.linkedin.com/in/namrata-ingale-8ba31838a" target="_blank" rel="noopener noreferrer" class="footer-link" aria-label="LinkedIn Profile">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true">
+              <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 8.76c.97 0 1.76-.79 1.76-1.76s-.79-1.76-1.76-1.76c-.97 0-1.76.79-1.76 1.76s.79 1.76 1.76 1.76m1.39 9.74v-8.37H5.07v8.37h2.78z"/>
+            </svg>
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://github.com/NamrataIngale07" target="_blank" rel="noopener noreferrer" class="footer-link" aria-label="GitHub Profile">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true">
+              <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+            </svg>
+            <span>GitHub</span>
+          </a>
+          <a href="https://www.codechef.com/users/rcpit251109015" target="_blank" rel="noopener noreferrer" class="footer-link" aria-label="CodeChef Profile">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true">
+              <path d="M18.5 9.5c0-.44-.06-.86-.18-1.26A4.5 4.5 0 0 0 12 4a4.5 4.5 0 0 0-6.32 4.24c-.12.4-.18.82-.18 1.26 0 2.21 1.61 4.04 3.73 4.41.48 1.48 1.87 2.59 3.52 2.59h1.5a3.75 3.75 0 0 0 3.52-2.59c2.12-.37 3.73-2.2 3.73-4.41zM8 18h8v1.5H8V18zm1 2.5h6V22H9v-1.5z"/>
+            </svg>
+            <span>CodeChef</span>
+          </a>
+          <a href="mailto:ingalenamrata101@gmail.com" class="footer-link" aria-label="Email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18" aria-hidden="true">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+            <span>Email</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright">
+          &copy; <span id="current-year">2026</span> Namrata Ingale. All rights reserved.
+        </p>
+        <p class="footer-note">Built with semantic HTML5, CSS3, and JavaScript &bull; Clean SaaS &amp; Modern UI</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal for Full Image Previews -->
+  <div class="lightbox-modal" id="lightbox-modal" aria-hidden="true" role="dialog" aria-label="Image Preview">
+    <div class="lightbox-backdrop" id="lightbox-backdrop"></div>
+    <div class="lightbox-dialog">
+      <button type="button" class="lightbox-close-btn" id="lightbox-close" aria-label="Close Preview">&times;</button>
+      <div class="lightbox-content">
+        <img src="" alt="" id="lightbox-image" class="lightbox-image">
+        <p class="lightbox-caption" id="lightbox-caption"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scroll To Top Button -->
+  <button class="scroll-top-btn" id="scroll-top-btn" aria-label="Scroll back to top" title="Scroll to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" width="20" height="20" aria-hidden="true">
+      <polyline points="18 15 12 9 6 15"></polyline>
+    </svg>
+  </button>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>

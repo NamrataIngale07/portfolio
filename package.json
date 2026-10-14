@@ -1,0 +1,19 @@
+{
+  "name": "namrata-ingale-portfolio",
+  "version": "1.0.0",
+  "description": "Personal developer portfolio website for Namrata Ingale",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "portfolio",
+    "developer",
+    "html5",
+    "css3",
+    "javascript"
+  ],
+  "author": "Namrata Ingale",
+  "license": "ISC"
+}
